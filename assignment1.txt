@@ -1,0 +1,26 @@
+Assignment 1
+Name-Tanya
+Registeration Number-19BEE1199
+Campus-Vellore Insitute of Technology,Chennai
+
+20 applications of Internet of things are as follows:
+-Smart Home Security Systems
+-Wearable Fitness Bands
+-Biometric cybersecurity scanners
+-Smart Door Lockers
+-Air quality sensors
+-Activity Tracker
+-Sleep Tracker
+-AR glasses
+-Motion Detectors
+-Smart Barcode Readers
+-Smoke Alarms or Smart Fire Alarms
+-Voice controlled devices Such as Alexa 
+-Smart home lightning systems
+-Connected Cars
+-Smart pill dispenser
+-Smart Weather Monitoring 
+-Fleet Tracking
+-Smart Fire extinguishers
+-Flood Alert sensors
+-Retail and Supply Change Management
