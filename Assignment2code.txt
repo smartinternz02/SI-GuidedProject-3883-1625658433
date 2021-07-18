@@ -1,0 +1,43 @@
+Assignment 2 
+Tanya
+19BEE1199
+Code:
+//CODE:
+#include<Servo.h>
+Servo s;
+int t = 2;
+int e = 3;
+void setup()
+{
+  pinMode(t, OUTPUT);//Output
+  pinMode(e, INPUT);//Input
+  s.attach(4);
+  Serial.begin(9600);//Baud rate
+}
+
+void loop()
+{
+  digitalWrite(t, LOW);
+  digitalWrite(t, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(t, LOW);
+  float dur = pulseIn(e, HIGH);
+  float dis = (dur * 0.0343)/2;	//centimeters
+  Serial.print("Distance in cm: ");
+  Serial.println(dis);
+  s.write(0);
+  if(dis<=327)
+  {
+    for(int i=0;i<=100;i++)
+    {
+      s.write(i);
+      delay(100);
+  	}
+ 	delay(5000);
+ 	for(int j=180;j>=0;j--)
+ 	{
+  	  s.write(j);
+  	  delay(100);
+ 	}
+  }
+}
